@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NetflixClone1</title>
+        <style>
+        body{
+            background:  rgba(0, 0, 0, 0.51) url(bgimg.jpg);
+            background-blend-mode: darken;
+            
+            }
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+           
+        }
+        .desc{
+        font-size: 60px;
+        color: white;
+        font-family: serif;
+        width: 500px;
+        }
+    
+        .cancel{
+            font-size: 30px;
+            color: white;
+            font-family: serif;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .ready{
+            color: white;
+            font-size: 25px;
+            font-family: serif;
+        }
+        .main-button{
+            display: flex;
+            margin-top: 15px;
+                    }
+        .Adress{
+            height: 50px;
+            width: 500px;
+        }
+        .get-started{
+            height: 55px;
+            width: 150px;
+            background-color: rgb(229, 9, 20);
+            color: white;
+            font-size: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-color:  rgb(229, 9, 20);;
+            
+        }
+        .get-started, .sign, .language:hover{
+            cursor: pointer;
+        }
+        
+        .Adress::placeholder{
+            font-size: 20px;
+       padding-left: 200px;
+       font-family: sans-serif;
+        }
+
+        .right-section{
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            display: flex;
+            flex-direction: row;
+        }
+        .sign{
+            background-color: rgb(229, 9, 20);
+            height: 50px;
+            width: 100px;
+            margin-left: 20px;
+            border-radius: 7px;
+            font-size: 18px;
+            font-family: serif;
+            color: white;
+        }
+        .language{
+            height: 46px;
+            width: 90px;
+            margin-top: 2px;
+        color: white;
+        font-size: ;    
+        background-color: transparent;
+        font-size: 14px;
+        border-color: white;
+            border-style: solid;
+            border-width: 1px;
+        }
+        .logo{
+       height: 50px;     
+        }
+        .logoo{
+            display: flex;
+            position: absolute;
+            top: 15px;
+            left: 40px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="desc">Unlimited Movies, TV Shows and more</div>
+            <div class="cancel" >Watch anywhere, Cancel anytime</div>
+            <div class="ready">Ready to watch?Enter your Email to create or restart your membership</div>
+            <div class="main-button">
+            <div><input class="Adress" type="text" placeholder="Email Adress"></div>
+            <div><button class="get-started">Get Started</button></div>
+            </div>
+         </div>
+         <div class="header">
+            <div class="logoo"><img class="logo" src="Netflixlogo.png"></div>
+            <div class="right-section">
+                <div><button class="language">Language</button></div>
+                <div><button class="sign" >Sign In</button></div>
+            </div>
+         </div>
+    </body>
+</html>
